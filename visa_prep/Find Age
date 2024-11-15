@@ -1,0 +1,2 @@
+ca = int(input())
+print(ca - 15)
