@@ -1,0 +1,7 @@
+x,y,z = map(int, input().split())
+total_min_req = x * y
+total_min_avb = z * 24 *60
+if total_min_req <= total_min_avb:
+    print("YES")
+else:
+    print("NO")
