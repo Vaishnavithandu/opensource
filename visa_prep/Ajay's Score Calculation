@@ -1,0 +1,9 @@
+T = int(input())
+results = []
+for _ in range(T):
+    x, n = map(int,input().split())
+    points_per_test_case = x // 10
+    score = points_per_test_case * n
+    results.append(score)
+for result in results:
+    print(result)
