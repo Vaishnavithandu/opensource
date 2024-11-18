@@ -1,0 +1,9 @@
+n = int(input())
+arr = list(map(int, input().split()))
+viewed = set()
+unique_ele = []
+for num in arr:
+    if num not in viewed:
+        unique_ele.append(num)
+        viewed.add(num)
+print(" ".join(map(str, unique_ele)))
